@@ -1,0 +1,40 @@
+:root{
+  --offwhite: #FAF9F6;
+  --emerald: #2ecc71;
+}
+body{
+  background-color: #ecf0f1;
+}
+.flex-container{
+  display:flex;
+  justify-content: space-evenly;
+}
+.editor-box{
+  display:flex;
+  flex-direction:column;
+  width:49vw;
+}
+.box-header{
+  border: 1px solid black;
+  background-color: var(--emerald);
+  margin: 0;
+}
+#editor{
+  width:99%;
+  height: 445px;
+  background-color: var(--offwhite);
+}
+#preview-box{
+  width:49vw;
+}
+#preview{
+  border: 1px solid black;
+  width: 99%;
+  height:450px;
+  overflow-y:scroll;
+  overflow-wrap:break-word;
+  background-color: var(--offwhite);
+}
+#preview img{
+  max-width: 100%;
+}
